@@ -20,6 +20,18 @@ public class order {
     void print_order(){
 
 
+            System.out.print(" => Product name:"+product_name+"- Count: "+count+" - Total price: " +total_price+" - Status: ");
+            if(status==0)
+                System.out.println("Initialized");
+            else if(status==1)
+                System.out.println("Processing");
+            else if (status==2)
+                System.out.println("Completed");
+            else if (status==3)
+                System.out.println("Cancelled");
+
+
+
     }
 
 
